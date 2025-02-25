@@ -47,3 +47,31 @@ nav ul li a {
     border: none;
     cursor: pointer;
 }
+
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background: #181818;
+}
+.hero h2 {
+    font-size: 2em;
+}
+.hero span {
+    color: orange;
+}
+
+#portfolio, #services, #testimonials, #blog, #contact {
+    padding: 50px 0;
+    text-align: center;
+}
+.portfolio-grid, .service-grid, .blog-grid {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.portfolio-item, .service-item, .blog-item {
+    background: #222;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+}
