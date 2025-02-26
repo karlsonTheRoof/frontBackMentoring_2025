@@ -75,3 +75,26 @@ nav ul li a {
     width: 200px;
     text-align: center;
 }
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+input, textarea {
+    width: 80%;
+    padding: 10px;
+    border: none;
+    background: #333;
+    color: white;
+}
+textarea {
+    height: 100px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #1a1a1a;
+}
